@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/space1">
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:gravity="center"
+                  android:layout_marginTop="30dp"
+                  android:layout_height="match_parent">
+        <Spinner
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/astrolist"
+                android:popupBackground="#b4373152"
+                android:spinnerMode="dialog">
+
+        </Spinner>
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textColor="@color/text"
+        android:text="View Astrologer Detail"
+        android:background="@drawable/round_button_askques"
+        android:id="@+id/viewastro"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:textColor="@color/text"
+        android:text="Ask Question"
+
+        android:background="@drawable/round_button_askques"
+        android:id="@+id/askques"
+        android:onClick="askast"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:textColor="@color/text"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="View Answer"
+
+            android:background="@drawable/round_button_askques"
+            android:id="@+id/viewanswer"
+            android:onClick="askast"/>
+
+    </LinearLayout>
+</LinearLayout>

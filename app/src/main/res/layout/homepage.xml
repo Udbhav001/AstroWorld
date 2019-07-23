@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space1"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text"
+            android:text="All Zodiac Signs"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+           android:fontFamily="monospace"
+
+            ></TextView>
+        <TableLayout
+            android:stretchColumns="*"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <TableRow >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/sign1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/homesign1" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/sign2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/homesign2" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/sign3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/homesign3" />
+
+            </TableRow>
+            <TableRow >
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="ARIES"
+                    android:gravity="center"
+                    android:textColor="@color/text"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="PISCES"
+                    android:gravity="center"
+                    android:textColor="@color/text"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="VIRGO"
+                    android:gravity="center"
+                    android:textColor="@color/text"
+                    android:textSize="15sp"/>
+            </TableRow>
+            <TableRow android:layout_marginTop="10dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/sign4"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:src="@drawable/homesign4" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/sign5"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:src="@drawable/homesign5" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/sign6"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:src="@drawable/homesign6" />
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="GEMINI"
+                    android:gravity="center"
+                    android:textColor="@color/text"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="ACQUARIUS"
+                    android:gravity="center"
+                    android:textColor="@color/text"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="SCORPIO"
+                    android:gravity="center"
+                    android:textColor="@color/text"
+                    android:textSize="15sp"/>
+            </TableRow>
+            <TableRow android:layout_marginTop="10dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/sign7"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/homesign7" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/sign8"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/homesign8" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/sign9"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/homesign9" />
+
+            </TableRow>
+            <TableRow >
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="CAPRICORN"
+                    android:gravity="center"
+                    android:textColor="@color/text"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="LIBRA"
+                    android:gravity="center"
+                    android:textColor="@color/text"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="SAGITTARIUS"
+                    android:gravity="center"
+                    android:textColor="@color/text"
+                    android:textSize="15sp"/>
+            </TableRow>
+            <TableRow android:layout_marginTop="10dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/sign10"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/homesign10" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/sign11"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/homesign11" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/sign12"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/homesign12" />
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="CANCER"
+                    android:gravity="center"
+                    android:textColor="@color/text"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="TAURUS"
+                    android:gravity="center"
+                    android:textColor="@color/text"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="LEO"
+                    android:gravity="center"
+                    android:textColor="@color/text"
+                    android:textSize="15sp"/>
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

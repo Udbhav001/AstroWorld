@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sunshine"
+            android:icon="@drawable/eye"
+            android:title="View All Sunshines" />
+        <item
+            android:id="@+id/nav_question"
+            android:icon="@drawable/ques"
+            android:title="Ask Question" />
+        <item
+            android:id="@+id/nav_compatibility"
+            android:icon="@drawable/comp"
+            android:title="Check Compatibility" />
+        <item
+            android:id="@+id/nav_game"
+            android:icon="@drawable/game"
+            android:title="Game" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="View Profile" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/callandsms"
+            android:title="Call/Sms Astrologer" />
+        <item
+            android:id="@+id/nav_mysign"
+            android:icon="@drawable/mysign"
+            android:title="MySigh" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+</menu>
